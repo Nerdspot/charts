@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  appsetapp:
+  - apiVersion: v2
+    created: "2025-01-20T18:25:22.450821666+01:00"
+    description: Wrapper Application for deploying all other applications on the cluster
+    digest: b339da9aa166fe7ac4aa2fc1e1808f655d1144c5f96c31508a1db3d876d282f9
+    name: appsetapp
+    urls:
+    - https://nerdspot.github.io/charts/charts/appsetapp-0.2.0.tgz
+    version: 0.2.0
+generated: "2025-01-20T18:25:22.450320114+01:00"
