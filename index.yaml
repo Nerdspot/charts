@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   appsetapp:
   - apiVersion: v2
-    created: "2025-01-28T13:06:43.118786808+01:00"
+    created: "2025-02-17T18:56:31.052640773+01:00"
     description: Wrapper Application for deploying all other applications on the cluster
     digest: b339da9aa166fe7ac4aa2fc1e1808f655d1144c5f96c31508a1db3d876d282f9
     name: appsetapp
@@ -11,11 +11,23 @@ entries:
     version: 0.2.0
   infra-toolbox:
   - apiVersion: v2
-    created: "2025-01-28T13:06:43.119164285+01:00"
+    created: "2025-02-17T18:56:31.052914479+01:00"
     description: Deploying infrastructure components
     digest: 48536f583e0b379ed5e0b5312a294ff8026196281ca8f888174d07698fc1aab6
     name: infra-toolbox
     urls:
     - charts/infra-toolbox-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-28T13:06:43.118568189+01:00"
+  pgo:
+  - apiVersion: v2
+    appVersion: 5.7.3
+    created: "2025-02-17T18:56:31.063334023+01:00"
+    description: Installer for PGO, the open source Postgres Operator from Crunchy
+      Data
+    digest: 33549dacedcb21b9b666db8a7765fd8a858bf9b29dd6152e19770492c32f986b
+    name: pgo
+    type: application
+    urls:
+    - charts/pgo-5.7.3.tgz
+    version: 5.7.3
+generated: "2025-02-17T18:56:31.052200865+01:00"
